@@ -22,7 +22,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Booking {
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)  
+	//@GeneratedValue(strategy = GenerationType.AUTO)  
 	private  long bookingId;
 	@OneToOne(cascade = CascadeType.MERGE,fetch = FetchType.LAZY)
 	private Customer customerId;
