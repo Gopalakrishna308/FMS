@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
  
 public class Airport {
-	 @Id
+	 @I
 //@GeneratedValue(strategy = GenerationType.IDENTITY)	 
 	 private long airportId;
 	
